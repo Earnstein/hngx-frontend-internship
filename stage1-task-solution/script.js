@@ -8,14 +8,7 @@ function getCurrentDayOfWeek() {
 
 function getCurrentLocalTime() {
     const currentDate = new Date();
-    const offsetMinutes = 60;
-    currentDate.setUTCMinutes(currentDate.getUTCMinutes() + offsetMinutes);
-    const hours = currentDate.getUTCHours();
-    const amOrPm = hours >= 12 ? 'PM' : 'AM';
-    const formattedHours = hours % 12 || 12;
-    const minutes = String(currentDate.getUTCMinutes()).padStart(2, '0');
-    const time = `${formattedHours}:${minutes} ${amOrPm}`;
-
+    const time = currentDate.getTime();
     return time;
 }
 
