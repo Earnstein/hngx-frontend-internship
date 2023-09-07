@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #253b42;
+    background-color: #d4dbdd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,7 @@ body {
     border-radius: 24px 24px 0 0;
     top: 0;
     left: 0;
-    background: rgba(163, 162, 162, 0.663);
+    background:#9ea9ac;
 }
 .profile{
    position: relative;
@@ -94,7 +94,7 @@ body {
     font-size: 32px;
     align-items: center; 
     justify-content: center; 
-    background-color: rgba(163, 162, 162, 0.663);
+    background-color: #9ea9ac;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: #333;
@@ -111,7 +111,7 @@ a{
     border: 1px solid rgb(0, 0, 0,0.8);
     text-decoration: none;
     color: rgb(0, 0, 0,0.8);
-    background-color: rgba(163, 162, 162, 0.663);
+    background-color: #9ea9ac;
     transition: all 0.25s
 }
 
