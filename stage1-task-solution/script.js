@@ -7,8 +7,7 @@ function getCurrentDayOfWeek() {
 
 
 function getCurrentLocalTime() {
-    const currentDate = new Date();
-    const time = currentDate.getTime();
+    const time = Date.now();
     return time;
 }
 
