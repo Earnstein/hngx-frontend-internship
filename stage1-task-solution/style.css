@@ -121,3 +121,30 @@ a:hover{
     border: 3px solid rgb(0, 0, 0,0.8);
     letter-spacing: 4px;
 }
+
+@media (max-width: 500px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        margin: 1 auto;
+    }
+
+    .profile-card{
+        max-width: 350px;
+    }
+
+    .time{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    }
+    .info p, .info span{
+        font-size: 16px;
+    }
+}
