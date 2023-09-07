@@ -122,7 +122,7 @@ a:hover{
     letter-spacing: 4px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 568px){
     .container {
         padding: 1rem;
         margin: 1 auto;
