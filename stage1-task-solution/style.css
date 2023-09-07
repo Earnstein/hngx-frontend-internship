@@ -124,10 +124,6 @@ a:hover{
 
 @media (max-width: 500px){
     .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         padding: 1rem;
         margin: 1 auto;
     }
