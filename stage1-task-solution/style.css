@@ -128,11 +128,10 @@ a:hover{
     }
 
     .profile-card{
-        max-width: 350px;
+        max-width: 340px;
     }
 
     .time{
-    display: flex;
     gap: 20px;
     padding: 20px;
     margin-top: 20px;
